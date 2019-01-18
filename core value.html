@@ -1,50 +1,46 @@
 <!doctype html>
+<!-- chrome -->
+
 <html>
 <head>
   <title> core value </title>
   <meta charset = "utf-8">
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131122295-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-131122295-1');
 </script>
 
+<!-- CDN for jquery & jquerymobile & jqueryUI -->
+<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
 <link rel="stylesheet" href="style.css">
+<style>h2{font-size: x-large;}</style>
 
-<style>
-h2{
-  font-size: x-large;
-}
-.time{
-  color:red;
-  border:1px red solid;
-}
-</style>
-
+<input type = "button" value = "night" onclick ="nightDayHandler(this);">
+<script src = "color.js"></script>
  </head>
 
 <body>
-
 <h1> Campus Life Service </h1>
 
 <div id = "grid">
 <ol>
-  <li><p><a href = "basic idea.html"
-    target = "_blank">
+  <li><p><a href = "basic idea.html">
     basic idea </a></p></li>
-  <li><p><a href = "details.html"
-    target = "_blank" >
+  <li><p><a href = "details.html">
     details </a></p></li>
-  <li><p><a href = "main obstacles and magical moments.html"
-    target = "_blank" >
+  <li><p><a href = "main obstacles and magical moments.html">
     main obstacles and magical moments </a></p></li>
-  <li><p><a href = "opentutorials.html"
-    target = "_blank"
-    id = "help" >
+  <li><p><a href = "opentutorials.html">
     thanks to opentutorials </a></P></li>
 </ol>
 
@@ -52,23 +48,19 @@ h2{
 <strong><h2>campus life</h2></strong>
 
 <u>core value</u> : appreciations of
-<a href = "https://en.wikipedia.org/wiki/Time"
-target = "_blank"
-class = "time">time</a>
-have spent
+<a href = "https://en.wikipedia.org/wiki/Time" target = "_blank">time</a> have spent
 
 <p>Time is the indefinite continued progress of existence and events that occur in apparently irreversible succession from the past through the present to the future.
 Time is a component quantity of various measurements used to sequence events to compare the duration of events or the intervals between them, and to quantify rates of change of quantities in material reality or in the conscious experience.
 Time is often referred to as a fouth dimension, along with three spatial dimensions.</p>
 <p style = "margin-top : 10px;">Time has long been an important subject of study in religion, philosophy, and science, but defining it in a manner applicable to all fields without circularity has consistently eluded scholars.
 Nevertheless, diverse fields such as business, industry, sports, the sciences, and the performing arts all incorporate some notion of time into their respective measuring systems.</P>
-
-
 <image src = "campus graduation.jpg" width = "70%">
 </div>
 </div>
 
 <p>
+  <!-- comments -->
   <div id="disqus_thread"></div>
 <script>
 (function() { // DON'T EDIT BELOW THIS LINE
